@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
         messageDiv.classList.remove("hidden");
 
         // Reload activities to show updated participant list
-        loadActivities();
+        fetchActivities();
 
         // Reset form
         signupForm.reset();
